@@ -1,3 +1,4 @@
+sudo chmod +x *
 cp ./MaxFansService /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable MaxFansService.service
