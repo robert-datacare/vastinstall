@@ -2,7 +2,7 @@
 Description=example systemd service unit file.
 
 [Service]
-ExecStart=/bin/bash /usr/home/vastinstall/MaxFans.sh
+ExecStart=/bin/bash ~/vastinstall/MaxFans.sh
 
 [Install]
 WantedBy=multi-user.target
